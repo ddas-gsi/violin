@@ -1,918 +1,1517 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Virginia Palma Muñoz | Event Violinist in Frankfurt am Main</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        pastel: {
-                            bg: '#FAF6F0',
-                            card: '#FFFFFF',
-                            peach: '#FFD8C8',
-                            coral: '#FCA180',
-                            lavender: '#E2D4F8',
-                            yellow: '#FFF2B2',
-                            mint: '#C5E8D5',
-                            rose: '#A24857',
-                            dark: '#2D2026',
-                            muted: '#6B5A63'
-                        }
-                    },
-                    fontFamily: {
-                        serif: ['Cormorant Garamond', 'serif'],
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              pastel: {
+                bg: "#FAF6F0",
+                card: "#FFFFFF",
+                peach: "#FFD8C8",
+                coral: "#FCA180",
+                lavender: "#E2D4F8",
+                yellow: "#FFF2B2",
+                mint: "#C5E8D5",
+                rose: "#A24857",
+                dark: "#2D2026",
+                muted: "#6B5A63",
+              },
+            },
+            fontFamily: {
+              serif: ["Cormorant Garamond", "serif"],
+              sans: ["Plus Jakarta Sans", "sans-serif"],
+            },
+          },
+        },
+      };
     </script>
-    
+
     <style>
-        body {
-            background-color: #FAF6F0;
-            color: #2D2026;
-        }
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #FAF6F0;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #FFD8C8;
-            border-radius: 5px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #FCA180;
-        }
-        .gradient-btn {
-            background: linear-gradient(135deg, #FCA180 0%, #E2D4F8 100%);
-        }
-        .gradient-text {
-            background: linear-gradient(135deg, #A24857 0%, #2D2026 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+      body {
+        background-color: #faf6f0;
+        color: #2d2026;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #faf6f0;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #ffd8c8;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #fca180;
+      }
+      .gradient-btn {
+        background: linear-gradient(135deg, #fca180 0%, #e2d4f8 100%);
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #a24857 0%, #2d2026 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     </style>
-</head>
-<body class="font-sans antialiased selection:bg-pastel-peach selection:text-pastel-dark">
+  </head>
+  <body
+    class="font-sans antialiased selection:bg-pastel-peach selection:text-pastel-dark"
+  >
+    <header
+      class="fixed top-0 left-0 w-full z-50 bg-pastel-bg/80 backdrop-blur-md border-b border-pastel-peach/30 transition-all duration-300"
+      id="navbar"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <a href="#" class="flex items-center gap-3 group">
+          <div
+            class="w-10 h-10 rounded-full bg-pastel-peach/50 flex items-center justify-center text-pastel-rose group-hover:scale-105 transition-transform"
+          >
+            <i data-lucide="music" class="w-5 h-5"></i>
+          </div>
+          <div class="leading-none">
+            <span
+              class="font-serif text-2xl font-bold tracking-tight text-pastel-dark whitespace-nowrap"
+              >Virginia Palma Muñoz</span
+            >
+            <span
+              class="block text-[10px] tracking-widest uppercase font-semibold text-pastel-rose mt-0.5"
+              >Violin & Performance</span
+            >
+          </div>
+        </a>
 
-    <header class="fixed top-0 left-0 w-full z-50 bg-pastel-bg/80 backdrop-blur-md border-b border-pastel-peach/30 transition-all duration-300" id="navbar">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-full bg-pastel-peach/50 flex items-center justify-center text-pastel-rose group-hover:scale-105 transition-transform">
-                    <i data-lucide="music" class="w-5 h-5"></i>
-                </div>
-                <div class="leading-none">
-                    <span class="font-serif text-2xl font-bold tracking-tight text-pastel-dark whitespace-nowrap">Virginia Palma Muñoz</span>
-                    <span class="block text-[10px] tracking-widest uppercase font-semibold text-pastel-rose mt-0.5">Violin & Performance</span>
-                </div>
-            </a>
+        <!-- Desktop Navigation -->
+        <nav
+          class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide text-pastel-dark"
+        >
+          <a href="#about" class="hover:text-pastel-rose transition-colors"
+            >About</a
+          >
+          <a href="#services" class="hover:text-pastel-rose transition-colors"
+            >Services</a
+          >
+          <a href="#repertoire" class="hover:text-pastel-rose transition-colors"
+            >Repertoire</a
+          >
+          <a href="#listen" class="hover:text-pastel-rose transition-colors"
+            >Audio Showcase</a
+          >
+          <a href="#calculator" class="hover:text-pastel-rose transition-colors"
+            >Pricing Estimate</a
+          >
+          <a
+            href="#contact"
+            class="gradient-btn text-pastel-dark font-semibold px-5 py-2.5 rounded-full shadow-md hover:opacity-95 transition-all hover:scale-105"
+          >
+            Book Event
+          </a>
+        </nav>
 
-            <!-- Desktop Navigation -->
-            <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide text-pastel-dark">
-                <a href="#about" class="hover:text-pastel-rose transition-colors">About</a>
-                <a href="#services" class="hover:text-pastel-rose transition-colors">Services</a>
-                <a href="#repertoire" class="hover:text-pastel-rose transition-colors">Repertoire</a>
-                <a href="#listen" class="hover:text-pastel-rose transition-colors">Audio Showcase</a>
-                <a href="#calculator" class="hover:text-pastel-rose transition-colors">Pricing Estimate</a>
-                <a href="#contact" class="gradient-btn text-pastel-dark font-semibold px-5 py-2.5 rounded-full shadow-md hover:opacity-95 transition-all hover:scale-105">
-                    Book Event
-                </a>
-            </nav>
+        <!-- Mobile Menu Toggle -->
+        <button
+          id="menu-btn"
+          class="md:hidden p-2 text-pastel-dark hover:text-pastel-rose focus:outline-none"
+          aria-label="Toggle Navigation"
+        >
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
 
-            <!-- Mobile Menu Toggle -->
-            <button id="menu-btn" class="md:hidden p-2 text-pastel-dark hover:text-pastel-rose focus:outline-none" aria-label="Toggle Navigation">
-                <i data-lucide="menu" class="w-6 h-6"></i>
-            </button>
-        </div>
-
-        <!-- Mobile Navigation Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-pastel-bg border-b border-pastel-peach/40 px-6 py-6 flex flex-col gap-4 shadow-lg">
-            <a href="#about" class="mobile-link py-2 text-base font-medium hover:text-pastel-rose">About Virginia</a>
-            <a href="#services" class="mobile-link py-2 text-base font-medium hover:text-pastel-rose">Event Services</a>
-            <a href="#repertoire" class="mobile-link py-2 text-base font-medium hover:text-pastel-rose">Repertoire List</a>
-            <a href="#listen" class="mobile-link py-2 text-base font-medium hover:text-pastel-rose">Audio Showcase</a>
-            <a href="#calculator" class="mobile-link py-2 text-base font-medium hover:text-pastel-rose">Calculate Estimate</a>
-            <a href="#contact" class="mobile-link gradient-btn text-pastel-dark py-3 rounded-full font-semibold text-center mt-2 shadow-md">Book Event Now</a>
-        </div>
+      <!-- Mobile Navigation Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-pastel-bg border-b border-pastel-peach/40 px-6 py-6 flex flex-col gap-4 shadow-lg"
+      >
+        <a
+          href="#about"
+          class="mobile-link py-2 text-base font-medium hover:text-pastel-rose"
+          >About Virginia</a
+        >
+        <a
+          href="#services"
+          class="mobile-link py-2 text-base font-medium hover:text-pastel-rose"
+          >Event Services</a
+        >
+        <a
+          href="#repertoire"
+          class="mobile-link py-2 text-base font-medium hover:text-pastel-rose"
+          >Repertoire List</a
+        >
+        <a
+          href="#listen"
+          class="mobile-link py-2 text-base font-medium hover:text-pastel-rose"
+          >Audio Showcase</a
+        >
+        <a
+          href="#calculator"
+          class="mobile-link py-2 text-base font-medium hover:text-pastel-rose"
+          >Calculate Estimate</a
+        >
+        <a
+          href="#contact"
+          class="mobile-link gradient-btn text-pastel-dark py-3 rounded-full font-semibold text-center mt-2 shadow-md"
+          >Book Event Now</a
+        >
+      </div>
     </header>
 
-    <section class="relative min-h-screen flex items-center justify-center pt-28 pb-16 overflow-hidden">
-        <div class="absolute top-12 left-10 w-96 h-96 bg-pastel-peach/40 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute bottom-10 right-10 w-[500px] h-[500px] bg-pastel-lavender/50 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pastel-mint/40 rounded-full blur-3xl pointer-events-none"></div>
+    <section
+      class="relative min-h-screen flex items-center justify-center pt-28 pb-16 overflow-hidden"
+    >
+      <div
+        class="absolute top-12 left-10 w-96 h-96 bg-pastel-peach/40 rounded-full blur-3xl pointer-events-none"
+      ></div>
+      <div
+        class="absolute bottom-10 right-10 w-[500px] h-[500px] bg-pastel-lavender/50 rounded-full blur-3xl pointer-events-none"
+      ></div>
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pastel-mint/40 rounded-full blur-3xl pointer-events-none"
+      ></div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 grid lg:grid-cols-12 gap-12 items-center">
-            
-            <div class="lg:col-span-7 text-center lg:text-left space-y-8">
-                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pastel-card border border-pastel-peach text-pastel-rose text-xs font-bold tracking-wider uppercase shadow-sm">
-                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-pastel-rose"></i>
-                    <span>Frankfurt am Main, Germany & Europe-Wide</span>
-                </div>
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 grid lg:grid-cols-12 gap-12 items-center"
+      >
+        <div class="lg:col-span-7 text-center lg:text-left space-y-8">
+          <div
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pastel-card border border-pastel-peach text-pastel-rose text-xs font-bold tracking-wider uppercase shadow-sm"
+          >
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-pastel-rose"></i>
+            <span>Frankfurt am Main, Germany & Europe-Wide</span>
+          </div>
 
-                <h1 class="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-pastel-dark">
-                    Elevate Your Events <br>
-                    <span class="gradient-text italic font-normal">With Soulful Violin</span>
-                </h1>
+          <h1
+            class="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-pastel-dark"
+          >
+            Elevate Your Events <br />
+            <span class="gradient-text italic font-normal"
+              >With Soulful Violin</span
+            >
+          </h1>
 
-                <p class="text-pastel-muted text-lg sm:text-xl max-w-2xl font-normal leading-relaxed mx-auto lg:mx-0">
-                    Live performance tailored for weddings, corporate galas, and private celebrations across Frankfurt, the Rhine-Main region, and Europe.
-                </p>
+          <p
+            class="text-pastel-muted text-lg sm:text-xl max-w-2xl font-normal leading-relaxed mx-auto lg:mx-0"
+          >
+            Live performance tailored for weddings, corporate galas, and private
+            celebrations across Frankfurt, the Rhine-Main region, and Europe.
+          </p>
 
-                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
-                    <a href="#contact" class="w-full sm:w-auto gradient-btn text-pastel-dark px-8 py-4 rounded-full font-bold text-base flex items-center justify-center gap-3 shadow-lg hover:scale-105 transition-all">
-                        <span>Request Event Quote</span>
-                        <i data-lucide="arrow-right" class="w-5 h-5"></i>
-                    </a>
-                    <a href="#listen" class="w-full sm:w-auto bg-pastel-card border border-pastel-peach/60 text-pastel-dark hover:border-pastel-rose px-8 py-4 rounded-full font-semibold text-base flex items-center justify-center gap-3 shadow-sm hover:bg-pastel-peach/20 transition-all">
-                        <i data-lucide="play-circle" class="w-5 h-5 text-pastel-rose"></i>
-                        <span>Listen to Audio Samples</span>
-                    </a>
-                </div>
+          <div
+            class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2"
+          >
+            <a
+              href="#contact"
+              class="w-full sm:w-auto gradient-btn text-pastel-dark px-8 py-4 rounded-full font-bold text-base flex items-center justify-center gap-3 shadow-lg hover:scale-105 transition-all"
+            >
+              <span>Request Event Quote</span>
+              <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </a>
+            <a
+              href="#listen"
+              class="w-full sm:w-auto bg-pastel-card border border-pastel-peach/60 text-pastel-dark hover:border-pastel-rose px-8 py-4 rounded-full font-semibold text-base flex items-center justify-center gap-3 shadow-sm hover:bg-pastel-peach/20 transition-all"
+            >
+              <i data-lucide="play-circle" class="w-5 h-5 text-pastel-rose"></i>
+              <span>Listen to Audio Samples</span>
+            </a>
+          </div>
 
-                <div class="pt-8 border-t border-pastel-peach/30 max-w-lg mx-auto lg:mx-0">
-                    <p class="text-xs font-bold text-pastel-rose uppercase tracking-widest mb-3">Frequent Service Areas</p>
-                    <div class="flex flex-wrap justify-center lg:justify-start gap-2 text-xs font-medium text-pastel-dark">
-                        <span class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm">Frankfurt am Main</span>
-                        <span class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm">Wiesbaden</span>
-                        <span class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm">Mainz</span>
-                        <span class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm">Taunus</span>
-                        <span class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm">Darmstadt</span>
-                        <span class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm">International Travel</span>
-                    </div>
-                </div>
+          <div
+            class="pt-8 border-t border-pastel-peach/30 max-w-lg mx-auto lg:mx-0"
+          >
+            <p
+              class="text-xs font-bold text-pastel-rose uppercase tracking-widest mb-3"
+            >
+              Frequent Service Areas
+            </p>
+            <div
+              class="flex flex-wrap justify-center lg:justify-start gap-2 text-xs font-medium text-pastel-dark"
+            >
+              <span
+                class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm"
+                >Frankfurt am Main</span
+              >
+              <span
+                class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm"
+                >Wiesbaden</span
+              >
+              <span
+                class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm"
+                >Mainz</span
+              >
+              <span
+                class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm"
+                >Taunus</span
+              >
+              <span
+                class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm"
+                >Darmstadt</span
+              >
+              <span
+                class="bg-pastel-card px-3 py-1.5 rounded-full border border-pastel-peach/40 shadow-sm"
+                >International Travel</span
+              >
             </div>
-
-            <!-- Hero Image Banner -->
-            <div class="lg:col-span-5 relative">
-                <div class="relative mx-auto max-w-md lg:max-w-none">
-                    <div class="absolute -inset-2 bg-gradient-to-r from-pastel-peach via-pastel-lavender to-pastel-mint rounded-3xl opacity-70 blur-xl"></div>
-                    <div class="relative rounded-3xl overflow-hidden border-2 border-white bg-pastel-card shadow-xl">
-                        <img src="https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?auto=format&fit=crop&q=80&w=1000" 
-                             alt="Virginia Palma Violinist" 
-                             class="w-full h-[500px] object-cover object-center hover:scale-105 transition-transform duration-700"
-                             onerror="this.src='https://placehold.co/600x800/FAF6F0/A24857?text=Virginia+Palma'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-pastel-dark/60 via-transparent to-transparent"></div>
-                        <div class="absolute bottom-6 left-6 right-6 p-5 bg-white/90 backdrop-blur-md rounded-2xl border border-pastel-peach/50 flex items-center gap-4 shadow-lg">
-                            <div class="w-12 h-12 rounded-full bg-pastel-lavender flex items-center justify-center text-pastel-rose flex-shrink-0">
-                                <i data-lucide="award" class="w-6 h-6"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-pastel-rose font-bold uppercase tracking-wider">Classical & Modern Specialist</p>
-                                <p class="text-sm font-serif font-bold text-pastel-dark">Virginia Palma Muñoz</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <!-- Hero Image Banner -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            <div
+              class="absolute -inset-2 bg-gradient-to-r from-pastel-peach via-pastel-lavender to-pastel-mint rounded-3xl opacity-70 blur-xl"
+            ></div>
+            <div
+              class="relative rounded-3xl overflow-hidden border-2 border-white bg-pastel-card shadow-xl"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?auto=format&fit=crop&q=80&w=1000"
+                alt="Virginia Palma Violinist"
+                class="w-full h-[500px] object-cover object-center hover:scale-105 transition-transform duration-700"
+                onerror="
+                  this.src =
+                    'https://placehold.co/600x800/FAF6F0/A24857?text=Virginia+Palma'
+                "
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-pastel-dark/60 via-transparent to-transparent"
+              ></div>
+              <div
+                class="absolute bottom-6 left-6 right-6 p-5 bg-white/90 backdrop-blur-md rounded-2xl border border-pastel-peach/50 flex items-center gap-4 shadow-lg"
+              >
+                <div
+                  class="w-12 h-12 rounded-full bg-pastel-lavender flex items-center justify-center text-pastel-rose flex-shrink-0"
+                >
+                  <i data-lucide="award" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <p
+                    class="text-xs text-pastel-rose font-bold uppercase tracking-wider"
+                  >
+                    Classical & Modern Specialist
+                  </p>
+                  <p class="text-sm font-serif font-bold text-pastel-dark">
+                    Virginia Palma Muñoz
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="about" class="py-24 bg-pastel-card/60 relative border-y border-pastel-peach/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="relative">
-                        <div class="w-full h-[400px] rounded-3xl overflow-hidden shadow-lg border border-pastel-peach/40">
-                            <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=800" 
-                                 alt="Violin Performance Setup" 
-                                 class="w-full h-full object-cover">
-                        </div>
-                        <div class="absolute -bottom-6 -right-6 bg-pastel-yellow p-6 rounded-2xl shadow-lg border border-pastel-peach/50 max-w-xs hidden sm:block">
-                            <p class="font-serif italic text-base text-pastel-dark">"Music is the emotional bridge that makes event memories last a lifetime."</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7 space-y-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-peach/40 px-3 py-1 rounded-full">Artistry & Passion</span>
-                    <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark">Meet Virginia Palma Muñoz</h2>
-                    <p class="text-pastel-muted leading-relaxed text-base sm:text-lg">
-                        Based in the vibrant heart of <strong class="text-pastel-dark">Frankfurt am Main</strong>, Virginia brings exceptional technique and refined elegance to luxury events across Germany and Western Europe.
-                    </p>
-                    <p class="text-pastel-muted leading-relaxed text-base">
-                        Whether performing acoustic violin for an intimate garden wedding in the Taunus hills, providing chic lounge pop covers during a corporate cocktail hour in Frankfurt's banking district, or improvising alongside a live DJ at a private gala, Virginia tailors every performance to create an unforgettable atmosphere.
-                    </p>
-
-                    <div class="grid sm:grid-cols-3 gap-4 pt-4">
-                        <div class="p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 text-center">
-                            <i data-lucide="check-circle-2" class="w-6 h-6 text-pastel-rose mx-auto mb-2"></i>
-                            <h3 class="font-bold text-sm text-pastel-dark">Versatile Repertoire</h3>
-                            <p class="text-xs text-pastel-muted mt-1">Classical, Pop, Lounge, House</p>
-                        </div>
-                        <div class="p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 text-center">
-                            <i data-lucide="volume-2" class="w-6 h-6 text-pastel-rose mx-auto mb-2"></i>
-                            <h3 class="font-bold text-sm text-pastel-dark">Pro Audio Gear</h3>
-                            <p class="text-xs text-pastel-muted mt-1">Wireless Bose PA Included</p>
-                        </div>
-                        <div class="p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 text-center">
-                            <i data-lucide="globe" class="w-6 h-6 text-pastel-rose mx-auto mb-2"></i>
-                            <h3 class="font-bold text-sm text-pastel-dark">Flexible Travel</h3>
-                            <p class="text-xs text-pastel-muted mt-1">Germany & Destination Gigs</p>
-                        </div>
-                    </div>
-                </div>
+    <section
+      id="about"
+      class="py-24 bg-pastel-card/60 relative border-y border-pastel-peach/30"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-5 space-y-6">
+            <div class="relative">
+              <div
+                class="w-full h-[400px] rounded-3xl overflow-hidden shadow-lg border border-pastel-peach/40"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=800"
+                  alt="Violin Performance Setup"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div
+                class="absolute -bottom-6 -right-6 bg-pastel-yellow p-6 rounded-2xl shadow-lg border border-pastel-peach/50 max-w-xs hidden sm:block"
+              >
+                <p class="font-serif italic text-base text-pastel-dark">
+                  "Music is the emotional bridge that makes event memories last
+                  a lifetime."
+                </p>
+              </div>
             </div>
+          </div>
+
+          <div class="lg:col-span-7 space-y-6">
+            <span
+              class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-peach/40 px-3 py-1 rounded-full"
+              >Artistry & Passion</span
+            >
+            <h2
+              class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark"
+            >
+              Meet Virginia Palma Muñoz
+            </h2>
+            <p class="text-pastel-muted leading-relaxed text-base sm:text-lg">
+              Based in the vibrant heart of
+              <strong class="text-pastel-dark">Frankfurt am Main</strong>,
+              Virginia brings exceptional technique and refined elegance to
+              luxury events across Germany and Western Europe.
+            </p>
+            <p class="text-pastel-muted leading-relaxed text-base">
+              Whether performing acoustic violin for an intimate garden wedding
+              in the Taunus hills, providing chic lounge pop covers during a
+              corporate cocktail hour in Frankfurt's banking district, or
+              improvising alongside a live DJ at a private gala, Virginia
+              tailors every performance to create an unforgettable atmosphere.
+            </p>
+
+            <div class="grid sm:grid-cols-3 gap-4 pt-4">
+              <div
+                class="p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 text-center"
+              >
+                <i
+                  data-lucide="check-circle-2"
+                  class="w-6 h-6 text-pastel-rose mx-auto mb-2"
+                ></i>
+                <h3 class="font-bold text-sm text-pastel-dark">
+                  Versatile Repertoire
+                </h3>
+                <p class="text-xs text-pastel-muted mt-1">
+                  Classical, Pop, Lounge, House
+                </p>
+              </div>
+              <div
+                class="p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 text-center"
+              >
+                <i
+                  data-lucide="volume-2"
+                  class="w-6 h-6 text-pastel-rose mx-auto mb-2"
+                ></i>
+                <h3 class="font-bold text-sm text-pastel-dark">
+                  Pro Audio Gear
+                </h3>
+                <p class="text-xs text-pastel-muted mt-1">
+                  Wireless Bose PA Included
+                </p>
+              </div>
+              <div
+                class="p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 text-center"
+              >
+                <i
+                  data-lucide="globe"
+                  class="w-6 h-6 text-pastel-rose mx-auto mb-2"
+                ></i>
+                <h3 class="font-bold text-sm text-pastel-dark">
+                  Flexible Travel
+                </h3>
+                <p class="text-xs text-pastel-muted mt-1">
+                  Germany & Destination Gigs
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="repertoire" class="py-24 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-                <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-lavender px-3 py-1 rounded-full">Song Catalog</span>
-                    <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark mt-3">Interactive Repertoire</h2>
-                    <p class="text-pastel-muted mt-2">Filter songs by genre or search for your favorite melody.</p>
-                </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6"
+        >
+          <div>
+            <span
+              class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-lavender px-3 py-1 rounded-full"
+              >Song Catalog</span
+            >
+            <h2
+              class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark mt-3"
+            >
+              Interactive Repertoire
+            </h2>
+            <p class="text-pastel-muted mt-2">
+              Filter songs by genre or search for your favorite melody.
+            </p>
+          </div>
 
-                <div class="relative w-full md:w-80">
-                    <i data-lucide="search" class="w-5 h-5 text-pastel-rose absolute left-4 top-1/2 -translate-y-1/2"></i>
-                    <input type="text" id="repertoire-search" placeholder="Search song or artist..." 
-                           class="w-full bg-pastel-card border border-pastel-peach rounded-full pl-12 pr-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-pastel-coral text-pastel-dark placeholder-pastel-muted shadow-sm">
-                </div>
-            </div>
-
-            <div class="flex flex-wrap gap-2 mb-8" id="category-filters">
-                <button class="filter-btn active-filter px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-coral text-white shadow-md" data-category="all">
-                    All Genres
-                </button>
-                <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm" data-category="Classical Elegance">
-                    Classical Elegance
-                </button>
-                <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm" data-category="Modern Pop Covers">
-                    Modern Pop Covers
-                </button>
-                <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm" data-category="Cinematic & Film">
-                    Cinematic & Film
-                </button>
-                <button class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm" data-category="Jazz & Lounge">
-                    Jazz & Lounge
-                </button>
-            </div>
-
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" id="repertoire-grid">
-                <!-- Injected via JavaScript -->
-            </div>
-
-            <div class="mt-8 text-center p-6 bg-pastel-card rounded-2xl border border-pastel-peach/50 shadow-sm">
-                <p class="text-sm text-pastel-dark">
-                    <span class="text-pastel-rose font-bold">Have a specific song in mind for your aisle walk or first dance?</span> Virginia transcribes and arranges up to 2 custom song requests for every event booking!
-                </p>
-            </div>
+          <div class="relative w-full md:w-80">
+            <i
+              data-lucide="search"
+              class="w-5 h-5 text-pastel-rose absolute left-4 top-1/2 -translate-y-1/2"
+            ></i>
+            <input
+              type="text"
+              id="repertoire-search"
+              placeholder="Search song or artist..."
+              class="w-full bg-pastel-card border border-pastel-peach rounded-full pl-12 pr-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-pastel-coral text-pastel-dark placeholder-pastel-muted shadow-sm"
+            />
+          </div>
         </div>
+
+        <div class="flex flex-wrap gap-2 mb-8" id="category-filters">
+          <button
+            class="filter-btn active-filter px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-coral text-white shadow-md"
+            data-category="all"
+          >
+            All Genres
+          </button>
+          <button
+            class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm"
+            data-category="Classical Elegance"
+          >
+            Classical Elegance
+          </button>
+          <button
+            class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm"
+            data-category="Modern Pop Covers"
+          >
+            Modern Pop Covers
+          </button>
+          <button
+            class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm"
+            data-category="Cinematic & Film"
+          >
+            Cinematic & Film
+          </button>
+          <button
+            class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-pastel-card text-pastel-dark hover:bg-pastel-peach/50 border border-pastel-peach/40 shadow-sm"
+            data-category="Jazz & Lounge"
+          >
+            Jazz & Lounge
+          </button>
+        </div>
+
+        <div
+          class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
+          id="repertoire-grid"
+        >
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <div
+          class="mt-8 text-center p-6 bg-pastel-card rounded-2xl border border-pastel-peach/50 shadow-sm"
+        >
+          <p class="text-sm text-pastel-dark">
+            <span class="text-pastel-rose font-bold"
+              >Have a specific song in mind for your aisle walk or first
+              dance?</span
+            >
+            Virginia transcribes and arranges up to 2 custom song requests for
+            every event booking!
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- REAL AUDIO SHOWCASE SECTION -->
-    <section id="listen" class="py-24 bg-pastel-lavender/30 relative border-y border-pastel-peach/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-card px-3 py-1 rounded-full shadow-sm">Listen Live</span>
-                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark mt-3">Audio Showcase</h2>
-                <p class="text-pastel-muted mt-4 text-base sm:text-lg">Preview acoustic and amplified violin arrangements recorded in high fidelity.</p>
-            </div>
-
-            <div class="bg-pastel-card rounded-3xl p-6 sm:p-10 max-w-4xl mx-auto shadow-xl border border-pastel-peach/50">
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden flex-shrink-0 border-2 border-pastel-peach shadow-md">
-                        <img id="player-cover" src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=600" 
-                             alt="Track Cover" 
-                             class="w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-pastel-dark/20"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <div class="w-12 h-12 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-pastel-rose shadow-md">
-                                <i data-lucide="music-4" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Player Interface -->
-                    <div class="flex-1 w-full space-y-5">
-                        <div>
-                            <span id="player-genre" class="text-xs font-bold text-pastel-rose uppercase tracking-widest bg-pastel-peach/40 px-2.5 py-1 rounded-full">Classical Elegance</span>
-                            <h3 id="player-title" class="text-2xl font-serif font-bold text-pastel-dark mt-2">Canon in D Major</h3>
-                            <p id="player-artist" class="text-sm text-pastel-muted">J. Pachelbel — Acoustic Solo Violin</p>
-                        </div>
-
-                        <!-- Animated Waveform Visualizer -->
-                        <div class="h-12 flex items-center gap-1.5 justify-between px-3 py-1 bg-pastel-bg rounded-xl border border-pastel-peach/30" id="waveform">
-                            <!-- Dynamic Waveform Bars Injected via JS -->
-                        </div>
-
-                        <!-- Progress Bar & Time Tracker -->
-                        <div class="space-y-1">
-                            <div class="w-full bg-pastel-peach/40 h-2 rounded-full overflow-hidden cursor-pointer relative" id="progress-bar-container">
-                                <div id="progress-bar" class="bg-pastel-coral h-full w-0 transition-all duration-100"></div>
-                            </div>
-                            <div class="flex justify-between text-xs text-pastel-muted font-mono">
-                                <span id="current-time">0:00</span>
-                                <span id="duration-time">0:00</span>
-                            </div>
-                        </div>
-
-                        <div class="flex items-center justify-between pt-2">
-                            <div class="flex items-center gap-4">
-                                <button id="prev-btn" class="text-pastel-muted hover:text-pastel-rose transition-colors p-2" aria-label="Previous Track">
-                                    <i data-lucide="skip-back" class="w-5 h-5"></i>
-                                </button>
-                                <button id="play-btn" class="w-14 h-14 rounded-full gradient-btn text-pastel-dark flex items-center justify-center shadow-lg hover:scale-105 transition-transform" aria-label="Play/Pause">
-                                    <i data-lucide="play" class="w-6 h-6 fill-current translate-x-0.5" id="play-icon"></i>
-                                </button>
-                                <button id="next-btn" class="text-pastel-muted hover:text-pastel-rose transition-colors p-2" aria-label="Next Track">
-                                    <i data-lucide="skip-forward" class="w-5 h-5"></i>
-                                </button>
-                            </div>
-                            <div class="flex items-center gap-2 text-pastel-rose text-xs font-semibold bg-pastel-mint/50 px-3 py-1 rounded-full">
-                                <i data-lucide="volume-2" class="w-4 h-4"></i>
-                                <span>High Fidelity Audio</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-8 pt-6 border-t border-pastel-peach/30 grid sm:grid-cols-2 lg:grid-cols-4 gap-3" id="track-selector-list">
-                    <!-- Injected dynamically -->
-                </div>
-            </div>
+    <section
+      id="listen"
+      class="py-24 bg-pastel-lavender/30 relative border-y border-pastel-peach/30"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-card px-3 py-1 rounded-full shadow-sm"
+            >Listen Live</span
+          >
+          <h2
+            class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark mt-3"
+          >
+            Audio Showcase
+          </h2>
+          <p class="text-pastel-muted mt-4 text-base sm:text-lg">
+            Preview acoustic and amplified violin arrangements recorded in high
+            fidelity.
+          </p>
         </div>
+
+        <div
+          class="bg-pastel-card rounded-3xl p-6 sm:p-10 max-w-4xl mx-auto shadow-xl border border-pastel-peach/50"
+        >
+          <div class="flex flex-col md:flex-row items-center gap-8">
+            <div
+              class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden flex-shrink-0 border-2 border-pastel-peach shadow-md"
+            >
+              <img
+                id="player-cover"
+                src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=600"
+                alt="Track Cover"
+                class="w-full h-full object-cover"
+              />
+              <div class="absolute inset-0 bg-pastel-dark/20"></div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div
+                  class="w-12 h-12 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-pastel-rose shadow-md"
+                >
+                  <i data-lucide="music-4" class="w-6 h-6"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Player Interface -->
+            <div class="flex-1 w-full space-y-5">
+              <div>
+                <span
+                  id="player-genre"
+                  class="text-xs font-bold text-pastel-rose uppercase tracking-widest bg-pastel-peach/40 px-2.5 py-1 rounded-full"
+                  >Classical Elegance</span
+                >
+                <h3
+                  id="player-title"
+                  class="text-2xl font-serif font-bold text-pastel-dark mt-2"
+                >
+                  Canon in D Major
+                </h3>
+                <p id="player-artist" class="text-sm text-pastel-muted">
+                  J. Pachelbel — Acoustic Solo Violin
+                </p>
+              </div>
+
+              <!-- Animated Waveform Visualizer -->
+              <div
+                class="h-12 flex items-center gap-1.5 justify-between px-3 py-1 bg-pastel-bg rounded-xl border border-pastel-peach/30"
+                id="waveform"
+              >
+                <!-- Dynamic Waveform Bars Injected via JS -->
+              </div>
+
+              <!-- Progress Bar & Time Tracker -->
+              <div class="space-y-1">
+                <div
+                  class="w-full bg-pastel-peach/40 h-2 rounded-full overflow-hidden cursor-pointer relative"
+                  id="progress-bar-container"
+                >
+                  <div
+                    id="progress-bar"
+                    class="bg-pastel-coral h-full w-0 transition-all duration-100"
+                  ></div>
+                </div>
+                <div
+                  class="flex justify-between text-xs text-pastel-muted font-mono"
+                >
+                  <span id="current-time">0:00</span>
+                  <span id="duration-time">0:00</span>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between pt-2">
+                <div class="flex items-center gap-4">
+                  <button
+                    id="prev-btn"
+                    class="text-pastel-muted hover:text-pastel-rose transition-colors p-2"
+                    aria-label="Previous Track"
+                  >
+                    <i data-lucide="skip-back" class="w-5 h-5"></i>
+                  </button>
+                  <button
+                    id="play-btn"
+                    class="w-14 h-14 rounded-full gradient-btn text-pastel-dark flex items-center justify-center shadow-lg hover:scale-105 transition-transform"
+                    aria-label="Play/Pause"
+                  >
+                    <i
+                      data-lucide="play"
+                      class="w-6 h-6 fill-current translate-x-0.5"
+                      id="play-icon"
+                    ></i>
+                  </button>
+                  <button
+                    id="next-btn"
+                    class="text-pastel-muted hover:text-pastel-rose transition-colors p-2"
+                    aria-label="Next Track"
+                  >
+                    <i data-lucide="skip-forward" class="w-5 h-5"></i>
+                  </button>
+                </div>
+                <div
+                  class="flex items-center gap-2 text-pastel-rose text-xs font-semibold bg-pastel-mint/50 px-3 py-1 rounded-full"
+                >
+                  <i data-lucide="volume-2" class="w-4 h-4"></i>
+                  <span>High Fidelity Audio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mt-8 pt-6 border-t border-pastel-peach/30 grid sm:grid-cols-2 lg:grid-cols-4 gap-3"
+            id="track-selector-list"
+          >
+            <!-- Injected dynamically -->
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="services" class="py-24 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-mint px-3 py-1 rounded-full">Tailored Packages</span>
-                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark mt-3">Event Services</h2>
-                <p class="text-pastel-muted mt-4 text-base sm:text-lg">Designed for smooth coordination and elegant musical presentation.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="bg-pastel-card p-8 rounded-3xl border border-pastel-peach/50 shadow-md flex flex-col justify-between">
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-pastel-peach/50 flex items-center justify-center text-pastel-rose mb-6">
-                            <i data-lucide="heart" class="w-7 h-7"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">Weddings</h3>
-                        <p class="text-sm text-pastel-muted mb-6 leading-relaxed">Romantic guest arrival prelude, aisle processional, registry signing, and reception cocktail hour sets.</p>
-                        <ul class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6">
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Ceremony & Aisle Walk
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Champagne Cocktail Hour
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                2 Custom Requested Songs
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="bg-pastel-card p-8 rounded-3xl border-2 border-pastel-coral shadow-lg flex flex-col justify-between relative">
-                    <div class="absolute -top-3 right-6 bg-pastel-coral text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm">
-                        Popular Choice
-                    </div>
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-pastel-lavender flex items-center justify-center text-pastel-rose mb-6">
-                            <i data-lucide="building-2" class="w-7 h-7"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">Corporate Galas</h3>
-                        <p class="text-sm text-pastel-muted mb-6 leading-relaxed">Atmospheric pop & lounge violin performance for executive dinners, award nights, and trade shows in Frankfurt.</p>
-                        <ul class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6">
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Chic Background Ambiance
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Wireless Sound System
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Flexible Dress Code Options
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="bg-pastel-card p-8 rounded-3xl border border-pastel-peach/50 shadow-md flex flex-col justify-between">
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-pastel-yellow flex items-center justify-center text-pastel-rose mb-6">
-                            <i data-lucide="cake" class="w-7 h-7"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">Private Parties</h3>
-                        <p class="text-sm text-pastel-muted mb-6 leading-relaxed">Milestone birthdays, anniversaries, estate garden parties, and intimate private dinner gatherings.</p>
-                        <ul class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6">
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Dynamic Setlist Mix
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Portable Outdoor Setup
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Interactive Guest Request Set
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="bg-pastel-card p-8 rounded-3xl border border-pastel-peach/50 shadow-md flex flex-col justify-between">
-                    <div>
-                        <div class="w-14 h-14 rounded-2xl bg-pastel-mint flex items-center justify-center text-pastel-rose mb-6">
-                            <i data-lucide="sparkles" class="w-7 h-7"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">Proposals</h3>
-                        <p class="text-sm text-pastel-muted mb-6 leading-relaxed">Surprise pop-up acoustic violin playing your special song during marriage proposals or private moments.</p>
-                        <ul class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6">
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Discrete Spot Coordination
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Exact Moment Cueing
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
-                                Post-Proposal Mini Set
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-mint px-3 py-1 rounded-full"
+            >Tailored Packages</span
+          >
+          <h2
+            class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark mt-3"
+          >
+            Event Services
+          </h2>
+          <p class="text-pastel-muted mt-4 text-base sm:text-lg">
+            Designed for smooth coordination and elegant musical presentation.
+          </p>
         </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div
+            class="bg-pastel-card p-8 rounded-3xl border border-pastel-peach/50 shadow-md flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-pastel-peach/50 flex items-center justify-center text-pastel-rose mb-6"
+              >
+                <i data-lucide="heart" class="w-7 h-7"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">
+                Weddings
+              </h3>
+              <p class="text-sm text-pastel-muted mb-6 leading-relaxed">
+                Romantic guest arrival prelude, aisle processional, registry
+                signing, and reception cocktail hour sets.
+              </p>
+              <ul
+                class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6"
+              >
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Ceremony & Aisle Walk
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Champagne Cocktail Hour
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  2 Custom Requested Songs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="bg-pastel-card p-8 rounded-3xl border-2 border-pastel-coral shadow-lg flex flex-col justify-between relative"
+          >
+            <div
+              class="absolute -top-3 right-6 bg-pastel-coral text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+            >
+              Popular Choice
+            </div>
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-pastel-lavender flex items-center justify-center text-pastel-rose mb-6"
+              >
+                <i data-lucide="building-2" class="w-7 h-7"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">
+                Corporate Galas
+              </h3>
+              <p class="text-sm text-pastel-muted mb-6 leading-relaxed">
+                Atmospheric pop & lounge violin performance for executive
+                dinners, award nights, and trade shows in Frankfurt.
+              </p>
+              <ul
+                class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6"
+              >
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Chic Background Ambiance
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Wireless Sound System
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Flexible Dress Code Options
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="bg-pastel-card p-8 rounded-3xl border border-pastel-peach/50 shadow-md flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-pastel-yellow flex items-center justify-center text-pastel-rose mb-6"
+              >
+                <i data-lucide="cake" class="w-7 h-7"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">
+                Private Parties
+              </h3>
+              <p class="text-sm text-pastel-muted mb-6 leading-relaxed">
+                Milestone birthdays, anniversaries, estate garden parties, and
+                intimate private dinner gatherings.
+              </p>
+              <ul
+                class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6"
+              >
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Dynamic Setlist Mix
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Portable Outdoor Setup
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Interactive Guest Request Set
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="bg-pastel-card p-8 rounded-3xl border border-pastel-peach/50 shadow-md flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-pastel-mint flex items-center justify-center text-pastel-rose mb-6"
+              >
+                <i data-lucide="sparkles" class="w-7 h-7"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-pastel-dark mb-2">
+                Proposals
+              </h3>
+              <p class="text-sm text-pastel-muted mb-6 leading-relaxed">
+                Surprise pop-up acoustic violin playing your special song during
+                marriage proposals or private moments.
+              </p>
+              <ul
+                class="space-y-3 text-xs text-pastel-dark border-t border-pastel-peach/30 pt-6"
+              >
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Discrete Spot Coordination
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Exact Moment Cueing
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-pastel-rose"></i>
+                  Post-Proposal Mini Set
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="calculator" class="py-24 bg-pastel-peach/20 relative border-y border-pastel-peach/40">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <span class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-card px-3 py-1 rounded-full shadow-sm">Instant Estimator</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-pastel-dark mt-3">Calculate Your Investment</h2>
-                <p class="text-pastel-muted mt-2">Get an instant ballpark quote for performances in Frankfurt and surrounding regions.</p>
-            </div>
-
-            <div class="bg-pastel-card p-8 sm:p-12 rounded-3xl border border-pastel-peach/60 shadow-xl space-y-8">
-                <div>
-                    <label class="block text-xs uppercase font-bold text-pastel-rose tracking-wider mb-3">1. Select Event Type</label>
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                        <button class="calc-type-btn active-type p-4 rounded-2xl border-2 border-pastel-coral bg-pastel-peach/30 text-pastel-dark font-bold text-sm text-center transition-all shadow-sm" data-base="380">
-                            Wedding
-                        </button>
-                        <button class="calc-type-btn p-4 rounded-2xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-semibold text-sm text-center transition-all hover:border-pastel-coral" data-base="420">
-                            Corporate
-                        </button>
-                        <button class="calc-type-btn p-4 rounded-2xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-semibold text-sm text-center transition-all hover:border-pastel-coral" data-base="320">
-                            Private Party
-                        </button>
-                        <button class="calc-type-btn p-4 rounded-2xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-semibold text-sm text-center transition-all hover:border-pastel-coral" data-base="280">
-                            Proposal
-                        </button>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="flex justify-between items-center mb-3">
-                        <label class="text-xs uppercase font-bold text-pastel-rose tracking-wider">2. Performance Duration</label>
-                        <span id="duration-val" class="font-bold text-pastel-dark bg-pastel-yellow px-3 py-1 rounded-full text-xs font-mono">2 Hours</span>
-                    </div>
-                    <input type="range" id="duration-slider" min="1" max="5" value="2" step="1" 
-                           class="w-full h-2 bg-pastel-peach/50 rounded-lg appearance-none cursor-pointer accent-pastel-coral">
-                    <div class="flex justify-between text-xs text-pastel-muted mt-2 font-mono">
-                        <span>1 Hour</span>
-                        <span>2 Hours</span>
-                        <span>3 Hours</span>
-                        <span>4 Hours</span>
-                        <span>5 Hours</span>
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block text-xs uppercase font-bold text-pastel-rose tracking-wider mb-3">3. Event Location Range</label>
-                    <div class="grid sm:grid-cols-3 gap-3">
-                        <button class="calc-loc-btn active-loc p-3 rounded-xl border-2 border-pastel-coral bg-pastel-peach/30 text-pastel-dark font-bold text-xs text-center" data-travel="0">
-                            Frankfurt City (No travel fee)
-                        </button>
-                        <button class="calc-loc-btn p-3 rounded-xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-medium text-xs text-center hover:border-pastel-coral" data-travel="60">
-                            Rhine-Main Region (+ €60)
-                        </button>
-                        <button class="calc-loc-btn p-3 rounded-xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-medium text-xs text-center hover:border-pastel-coral" data-travel="150">
-                            Germany / EU Travel (+ €250+)
-                        </button>
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block text-xs uppercase font-bold text-pastel-rose tracking-wider mb-3">4. Audio Setup</label>
-                    <div class="grid sm:grid-cols-2 gap-3">
-                        <label class="flex items-center gap-3 p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 cursor-pointer hover:border-pastel-coral">
-                            <input type="checkbox" id="sound-addon" class="addon-checkbox w-4 h-4 accent-pastel-coral rounded" data-price="90">
-                            <span class="text-xs sm:text-sm text-pastel-dark font-medium">Bose PA Sound System (+ €90)</span>
-                        </label>
-                        <label class="flex items-center gap-3 p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 cursor-pointer hover:border-pastel-coral">
-                            <input type="checkbox" class="addon-checkbox w-4 h-4 accent-pastel-coral rounded" data-price="60">
-                            <span class="text-xs sm:text-sm text-pastel-dark font-medium">Extra Custom Arrangement (+ €60)</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="pt-6 border-t border-pastel-peach/40 flex flex-col sm:flex-row items-center justify-between gap-6">
-                    <div>
-                        <p class="text-xs text-pastel-muted uppercase tracking-wider">Estimated Total</p>
-                        <p id="total-price" class="font-serif text-4xl font-bold text-pastel-rose">€500</p>
-                        <p class="text-[11px] text-pastel-muted mt-1">*Includes tax. Official quote confirmed upon date availability check.</p>
-                    </div>
-                    <a href="#contact" class="w-full sm:w-auto gradient-btn text-pastel-dark px-8 py-4 rounded-full font-bold text-center shadow-lg hover:scale-105 transition-transform">
-                        Lock In Date & Request Quote
-                    </a>
-                </div>
-            </div>
+    <section
+      id="calculator"
+      class="py-24 bg-pastel-peach/20 relative border-y border-pastel-peach/40"
+    >
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <span
+            class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-card px-3 py-1 rounded-full shadow-sm"
+            >Instant Estimator</span
+          >
+          <h2
+            class="font-serif text-3xl sm:text-4xl font-bold text-pastel-dark mt-3"
+          >
+            Calculate Your Investment
+          </h2>
+          <p class="text-pastel-muted mt-2">
+            Get an instant ballpark quote for performances in Frankfurt and
+            surrounding regions.
+          </p>
         </div>
+
+        <div
+          class="bg-pastel-card p-8 sm:p-12 rounded-3xl border border-pastel-peach/60 shadow-xl space-y-8"
+        >
+          <div>
+            <label
+              class="block text-xs uppercase font-bold text-pastel-rose tracking-wider mb-3"
+              >1. Select Event Type</label
+            >
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <button
+                class="calc-type-btn active-type p-4 rounded-2xl border-2 border-pastel-coral bg-pastel-peach/30 text-pastel-dark font-bold text-sm text-center transition-all shadow-sm"
+                data-base="380"
+              >
+                Wedding
+              </button>
+              <button
+                class="calc-type-btn p-4 rounded-2xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-semibold text-sm text-center transition-all hover:border-pastel-coral"
+                data-base="420"
+              >
+                Corporate
+              </button>
+              <button
+                class="calc-type-btn p-4 rounded-2xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-semibold text-sm text-center transition-all hover:border-pastel-coral"
+                data-base="320"
+              >
+                Private Party
+              </button>
+              <button
+                class="calc-type-btn p-4 rounded-2xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-semibold text-sm text-center transition-all hover:border-pastel-coral"
+                data-base="280"
+              >
+                Proposal
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <label
+                class="text-xs uppercase font-bold text-pastel-rose tracking-wider"
+                >2. Performance Duration</label
+              >
+              <span
+                id="duration-val"
+                class="font-bold text-pastel-dark bg-pastel-yellow px-3 py-1 rounded-full text-xs font-mono"
+                >2 Hours</span
+              >
+            </div>
+            <input
+              type="range"
+              id="duration-slider"
+              min="1"
+              max="5"
+              value="2"
+              step="1"
+              class="w-full h-2 bg-pastel-peach/50 rounded-lg appearance-none cursor-pointer accent-pastel-coral"
+            />
+            <div
+              class="flex justify-between text-xs text-pastel-muted mt-2 font-mono"
+            >
+              <span>1 Hour</span>
+              <span>2 Hours</span>
+              <span>3 Hours</span>
+              <span>4 Hours</span>
+              <span>5 Hours</span>
+            </div>
+          </div>
+
+          <div>
+            <label
+              class="block text-xs uppercase font-bold text-pastel-rose tracking-wider mb-3"
+              >3. Event Location Range</label
+            >
+            <div class="grid sm:grid-cols-3 gap-3">
+              <button
+                class="calc-loc-btn active-loc p-3 rounded-xl border-2 border-pastel-coral bg-pastel-peach/30 text-pastel-dark font-bold text-xs text-center"
+                data-travel="0"
+              >
+                Frankfurt City (No travel fee)
+              </button>
+              <button
+                class="calc-loc-btn p-3 rounded-xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-medium text-xs text-center hover:border-pastel-coral"
+                data-travel="60"
+              >
+                Rhine-Main Region (+ €60)
+              </button>
+              <button
+                class="calc-loc-btn p-3 rounded-xl border border-pastel-peach/60 bg-pastel-bg text-pastel-dark font-medium text-xs text-center hover:border-pastel-coral"
+                data-travel="150"
+              >
+                Germany / EU Travel (+ €250+)
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <label
+              class="block text-xs uppercase font-bold text-pastel-rose tracking-wider mb-3"
+              >4. Audio Setup</label
+            >
+            <div class="grid sm:grid-cols-2 gap-3">
+              <label
+                class="flex items-center gap-3 p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 cursor-pointer hover:border-pastel-coral"
+              >
+                <input
+                  type="checkbox"
+                  id="sound-addon"
+                  class="addon-checkbox w-4 h-4 accent-pastel-coral rounded"
+                  data-price="90"
+                />
+                <span class="text-xs sm:text-sm text-pastel-dark font-medium"
+                  >Bose PA Sound System (+ €90)</span
+                >
+              </label>
+              <label
+                class="flex items-center gap-3 p-4 rounded-2xl bg-pastel-bg border border-pastel-peach/40 cursor-pointer hover:border-pastel-coral"
+              >
+                <input
+                  type="checkbox"
+                  class="addon-checkbox w-4 h-4 accent-pastel-coral rounded"
+                  data-price="60"
+                />
+                <span class="text-xs sm:text-sm text-pastel-dark font-medium"
+                  >Extra Custom Arrangement (+ €60)</span
+                >
+              </label>
+            </div>
+          </div>
+
+          <div
+            class="pt-6 border-t border-pastel-peach/40 flex flex-col sm:flex-row items-center justify-between gap-6"
+          >
+            <div>
+              <p class="text-xs text-pastel-muted uppercase tracking-wider">
+                Estimated Total
+              </p>
+              <p
+                id="total-price"
+                class="font-serif text-4xl font-bold text-pastel-rose"
+              >
+                €500
+              </p>
+              <p class="text-[11px] text-pastel-muted mt-1">
+                *Includes tax. Official quote confirmed upon date availability
+                check.
+              </p>
+            </div>
+            <a
+              href="#contact"
+              class="w-full sm:w-auto gradient-btn text-pastel-dark px-8 py-4 rounded-full font-bold text-center shadow-lg hover:scale-105 transition-transform"
+            >
+              Lock In Date & Request Quote
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="py-24 bg-pastel-card/80 relative border-t border-pastel-peach/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-5 space-y-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-peach/50 px-3 py-1 rounded-full">Bookings & Inquiries</span>
-                    <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark leading-tight">Let's Discuss Your Event</h2>
-                    <p class="text-pastel-muted text-base leading-relaxed">
-                        Interested in booking Virginia for your special date? Send a message below and expect a personal reply with date availability and pricing within 24 hours.
-                    </p>
+    <section
+      id="contact"
+      class="py-24 bg-pastel-card/80 relative border-t border-pastel-peach/30"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-start">
+          <div class="lg:col-span-5 space-y-6">
+            <span
+              class="text-xs font-bold uppercase tracking-widest text-pastel-rose bg-pastel-peach/50 px-3 py-1 rounded-full"
+              >Bookings & Inquiries</span
+            >
+            <h2
+              class="font-serif text-3xl sm:text-5xl font-bold text-pastel-dark leading-tight"
+            >
+              Let's Discuss Your Event
+            </h2>
+            <p class="text-pastel-muted text-base leading-relaxed">
+              Interested in booking Virginia for your special date? Send a
+              message below and expect a personal reply with date availability
+              and pricing within 24 hours.
+            </p>
 
-                    <div class="space-y-4 pt-4">
-                        <div class="flex items-center gap-4 p-4 bg-pastel-bg rounded-2xl border border-pastel-peach/40">
-                            <div class="w-10 h-10 rounded-full bg-pastel-peach/60 flex items-center justify-center text-pastel-rose">
-                                <i data-lucide="map-pin" class="w-5 h-5"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-pastel-muted">Home Base</p>
-                                <p class="text-sm font-bold text-pastel-dark">Frankfurt am Main, Germany</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-center gap-4 p-4 bg-pastel-bg rounded-2xl border border-pastel-peach/40">
-                            <div class="w-10 h-10 rounded-full bg-pastel-lavender flex items-center justify-center text-pastel-rose">
-                                <i data-lucide="mail" class="w-5 h-5"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-pastel-muted">Direct Contact Email</p>
-                                <p class="text-sm font-bold text-pastel-dark">contact@virginiapalma-violin.com</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-center gap-4 p-4 bg-pastel-bg rounded-2xl border border-pastel-peach/40">
-                            <div class="w-10 h-10 rounded-full bg-pastel-mint flex items-center justify-center text-pastel-rose">
-                                <i data-lucide="globe-2" class="w-5 h-5"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-pastel-muted">Languages</p>
-                                <p class="text-sm font-bold text-pastel-dark">English, German & Spanish Communication</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="space-y-4 pt-4">
+              <div
+                class="flex items-center gap-4 p-4 bg-pastel-bg rounded-2xl border border-pastel-peach/40"
+              >
+                <div
+                  class="w-10 h-10 rounded-full bg-pastel-peach/60 flex items-center justify-center text-pastel-rose"
+                >
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
                 </div>
-
-                <div class="lg:col-span-7">
-                    <form id="booking-form" class="bg-pastel-bg p-8 sm:p-10 rounded-3xl border border-pastel-peach/60 shadow-xl space-y-6">
-                        <div id="form-message" class="hidden p-4 rounded-2xl text-sm font-medium"></div>
-
-                        <div class="grid sm:grid-cols-2 gap-6">
-                            <div>
-                                <label class="block text-xs uppercase font-bold text-pastel-rose mb-2">Your Name *</label>
-                                <input type="text" required placeholder="e.g. Sarah Schmidt" 
-                                       class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm">
-                            </div>
-                            <div>
-                                <label class="block text-xs uppercase font-bold text-pastel-rose mb-2">Email Address *</label>
-                                <input type="email" required placeholder="sarah@example.de" 
-                                       class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm">
-                            </div>
-                        </div>
-
-                        <div class="grid sm:grid-cols-3 gap-6">
-                            <div>
-                                <label class="block text-xs uppercase font-bold text-pastel-rose mb-2">Event Date *</label>
-                                <input type="date" required 
-                                       class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm">
-                            </div>
-                            <div>
-                                <label class="block text-xs uppercase font-bold text-pastel-rose mb-2">Event Type *</label>
-                                <select class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm">
-                                    <option>Wedding Ceremony</option>
-                                    <option>Wedding Reception & Cocktail</option>
-                                    <option>Corporate Gala / Dinner</option>
-                                    <option>Private Party / Birthday</option>
-                                    <option>Secret Proposal</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-xs uppercase font-bold text-pastel-rose mb-2">Event City / Venue</label>
-                                <input type="text" placeholder="e.g. Frankfurt / Taunus" 
-                                       class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label class="block text-xs uppercase font-bold text-pastel-rose mb-2">Event Details & Music Preferences</label>
-                            <textarea rows="4" placeholder="Tell us about your event timeline, specific song preferences, or setup details..." 
-                                      class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"></textarea>
-                        </div>
-
-                        <button type="submit" class="w-full gradient-btn text-pastel-dark py-4 rounded-xl font-bold text-base shadow-lg hover:scale-[1.01] transition-all">
-                            Send Booking Inquiry
-                        </button>
-                    </form>
+                <div>
+                  <p class="text-xs text-pastel-muted">Home Base</p>
+                  <p class="text-sm font-bold text-pastel-dark">
+                    Frankfurt am Main, Germany
+                  </p>
                 </div>
+              </div>
+
+              <div
+                class="flex items-center gap-4 p-4 bg-pastel-bg rounded-2xl border border-pastel-peach/40"
+              >
+                <div
+                  class="w-10 h-10 rounded-full bg-pastel-lavender flex items-center justify-center text-pastel-rose"
+                >
+                  <i data-lucide="mail" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <p class="text-xs text-pastel-muted">Direct Contact Email</p>
+                  <p class="text-sm font-bold text-pastel-dark">
+                    contact@virginiapalma-violin.com
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="flex items-center gap-4 p-4 bg-pastel-bg rounded-2xl border border-pastel-peach/40"
+              >
+                <div
+                  class="w-10 h-10 rounded-full bg-pastel-mint flex items-center justify-center text-pastel-rose"
+                >
+                  <i data-lucide="globe-2" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <p class="text-xs text-pastel-muted">Languages</p>
+                  <p class="text-sm font-bold text-pastel-dark">
+                    English, German & Spanish Communication
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <form
+              id="booking-form"
+              class="bg-pastel-bg p-8 sm:p-10 rounded-3xl border border-pastel-peach/60 shadow-xl space-y-6"
+            >
+              <!--add YOUR_FORMSPREE_URL here-->
+              <div
+                id="form-message"
+                class="hidden p-4 rounded-2xl text-sm font-medium"
+              ></div>
+
+              <div class="grid sm:grid-cols-2 gap-6">
+                <div>
+                  <label
+                    class="block text-xs uppercase font-bold text-pastel-rose mb-2"
+                    >Your Name *</label
+                  >
+                  <input
+                    type="text"
+                    required
+                    placeholder="e.g. Sarah Schmidt"
+                    class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="block text-xs uppercase font-bold text-pastel-rose mb-2"
+                    >Email Address *</label
+                  >
+                  <input
+                    type="email"
+                    required
+                    placeholder="sarah@example.de"
+                    class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"
+                  />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-3 gap-6">
+                <div>
+                  <label
+                    class="block text-xs uppercase font-bold text-pastel-rose mb-2"
+                    >Event Date *</label
+                  >
+                  <input
+                    type="date"
+                    required
+                    class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"
+                  />
+                </div>
+                <div>
+                  <label
+                    class="block text-xs uppercase font-bold text-pastel-rose mb-2"
+                    >Event Type *</label
+                  >
+                  <select
+                    class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"
+                  >
+                    <option>Wedding Ceremony</option>
+                    <option>Wedding Reception & Cocktail</option>
+                    <option>Corporate Gala / Dinner</option>
+                    <option>Private Party / Birthday</option>
+                    <option>Secret Proposal</option>
+                  </select>
+                </div>
+                <div>
+                  <label
+                    class="block text-xs uppercase font-bold text-pastel-rose mb-2"
+                    >Event City / Venue</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="e.g. Frankfurt / Taunus"
+                    class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label
+                  class="block text-xs uppercase font-bold text-pastel-rose mb-2"
+                  >Event Details & Music Preferences</label
+                >
+                <textarea
+                  rows="4"
+                  placeholder="Tell us about your event timeline, specific song preferences, or setup details..."
+                  class="w-full bg-pastel-card border border-pastel-peach/60 rounded-xl px-4 py-3 text-sm text-pastel-dark focus:outline-none focus:ring-2 focus:ring-pastel-coral shadow-sm"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full gradient-btn text-pastel-dark py-4 rounded-xl font-bold text-base shadow-lg hover:scale-[1.01] transition-all"
+              >
+                Send Booking Inquiry
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer class="bg-pastel-dark text-pastel-bg py-12 text-center text-xs">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-            <p class="font-serif text-2xl font-bold tracking-wider text-pastel-peach">Virginia Palma Muñoz</p>
-            <p class="text-slate-300">Freelance Event Violinist — Frankfurt am Main, Germany & Europe</p>
-            <div class="flex justify-center gap-6 text-slate-300 pt-2">
-                <a href="#" class="hover:text-pastel-peach transition-colors">Instagram</a>
-                <a href="#" class="hover:text-pastel-peach transition-colors">YouTube</a>
-                <a href="#" class="hover:text-pastel-peach transition-colors">Spotify</a>
-            </div>
-            <p class="text-slate-500 pt-4 border-t border-slate-800">© 2026 Virginia Palma Muñoz. All Rights Reserved.</p>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+        <p
+          class="font-serif text-2xl font-bold tracking-wider text-pastel-peach"
+        >
+          Virginia Palma Muñoz
+        </p>
+        <p class="text-slate-300">
+          Freelance Event Violinist — Frankfurt am Main, Germany & Europe
+        </p>
+        <div class="flex justify-center gap-6 text-slate-300 pt-2">
+          <a href="#" class="hover:text-pastel-peach transition-colors"
+            >Instagram</a
+          >
+          <a href="#" class="hover:text-pastel-peach transition-colors"
+            >YouTube</a
+          >
+          <a href="#" class="hover:text-pastel-peach transition-colors"
+            >Spotify</a
+          >
         </div>
+        <p class="text-slate-500 pt-4 border-t border-slate-800">
+          © 2026 Virginia Palma Muñoz. All Rights Reserved.
+        </p>
+      </div>
     </footer>
 
     <script>
-        lucide.createIcons();
+      lucide.createIcons();
 
-        // Mobile Menu Toggle
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const mobileLinks = document.querySelectorAll('.mobile-link');
+      // Mobile Menu Toggle
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const mobileLinks = document.querySelectorAll(".mobile-link");
 
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
         });
+      });
 
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-            });
-        });
-
-        /* ======================================================
+      /* ======================================================
            REAL HTML5 AUDIO ENGINE CONFIGURATION
            ====================================================== */
-        const tracks = [
-            { 
-                id: 0, 
-                title: "Canon in D Major", 
-                genre: "Classical Elegance", 
-                artist: "J. Pachelbel — Solo Violin", 
-                cover: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=600",
-                src: "audio/canon-in-d-clavier.mp3"  // Path to your local MP3 file inside violin/audio/ or link ,
-                // src: "https://audio.com/patricia-pereira/audio/pachelbel-canon-in-d-major-best-version" ,
-            },
-            { 
-                id: 1, 
-                title: "A Thousand Years", 
-                genre: "Modern Pop Covers", 
-                artist: "Christina Perri Cover", 
-                cover: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=600",
-                src: "audio/a-thousand-years.mp3"
-            },
-            { 
-                id: 2, 
-                title: "Viva La Vida", 
-                genre: "Modern Pop Covers", 
-                artist: "Coldplay Acoustic Cover", 
-                cover: "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&q=80&w=600",
-                src: "audio/viva-la-vida.mp3"
-            },
-            { 
-                id: 3, 
-                title: "Smooth Operator", 
-                genre: "Jazz & Lounge", 
-                artist: "Sade — Lounge Violin Arrangement", 
-                cover: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600",
-                src: "audio/smooth-operator.mp3"
-            }
-        ];
+      const tracks = [
+        {
+          id: 0,
+          title: "Canon in D Major",
+          genre: "Classical Elegance",
+          artist: "J. Pachelbel — Solo Violin",
+          cover:
+            "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=600",
+          src: "audio/canon-in-d-clavier.mp3", // Path to your local MP3 file inside violin/audio/ or link ,
+          // src: "https://audio.com/patricia-pereira/audio/pachelbel-canon-in-d-major-best-version" ,
+        },
+        {
+          id: 1,
+          title: "A Thousand Years",
+          genre: "Modern Pop Covers",
+          artist: "Christina Perri Cover",
+          cover:
+            "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=600",
+          src: "audio/a-thousand-years.mp3",
+        },
+        {
+          id: 2,
+          title: "Viva La Vida",
+          genre: "Modern Pop Covers",
+          artist: "Coldplay Acoustic Cover",
+          cover:
+            "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&q=80&w=600",
+          src: "audio/viva-la-vida.mp3",
+        },
+        {
+          id: 3,
+          title: "Smooth Operator",
+          genre: "Jazz & Lounge",
+          artist: "Sade — Lounge Violin Arrangement",
+          cover:
+            "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600",
+          src: "audio/smooth-operator.mp3",
+        },
+      ];
 
-        let currentTrackIndex = 0;
-        let isPlaying = false;
-        const audioElement = new Audio();
+      let currentTrackIndex = 0;
+      let isPlaying = false;
+      const audioElement = new Audio();
 
-        // Waveform Visualizer Setup
-        const waveform = document.getElementById('waveform');
-        const barCount = 32;
-        for (let i = 0; i < barCount; i++) {
-            const bar = document.createElement('div');
-            bar.className = 'w-1 bg-pastel-peach rounded-full transition-all duration-150';
-            const height = Math.floor(Math.random() * 50) + 20;
-            bar.style.height = `${height}%`;
-            waveform.appendChild(bar);
-        }
+      // Waveform Visualizer Setup
+      const waveform = document.getElementById("waveform");
+      const barCount = 32;
+      for (let i = 0; i < barCount; i++) {
+        const bar = document.createElement("div");
+        bar.className =
+          "w-1 bg-pastel-peach rounded-full transition-all duration-150";
+        const height = Math.floor(Math.random() * 50) + 20;
+        bar.style.height = `${height}%`;
+        waveform.appendChild(bar);
+      }
 
-        // Render Track Selection Cards
-        const trackSelectorList = document.getElementById('track-selector-list');
-        tracks.forEach((track, index) => {
-            const btn = document.createElement('button');
-            btn.className = `p-3 rounded-xl border text-left transition-all flex items-center gap-3 ${index === 0 ? 'bg-pastel-peach/40 border-pastel-coral text-pastel-dark shadow-sm' : 'bg-pastel-bg border-pastel-peach/30 text-pastel-muted hover:border-pastel-coral'}`;
-            btn.innerHTML = `
+      // Render Track Selection Cards
+      const trackSelectorList = document.getElementById("track-selector-list");
+      tracks.forEach((track, index) => {
+        const btn = document.createElement("button");
+        btn.className = `p-3 rounded-xl border text-left transition-all flex items-center gap-3 ${index === 0 ? "bg-pastel-peach/40 border-pastel-coral text-pastel-dark shadow-sm" : "bg-pastel-bg border-pastel-peach/30 text-pastel-muted hover:border-pastel-coral"}`;
+        btn.innerHTML = `
                 <i data-lucide="music" class="w-4 h-4 text-pastel-rose flex-shrink-0"></i>
                 <div class="truncate">
                     <p class="text-xs font-bold text-pastel-dark truncate">${track.title}</p>
                     <p class="text-[10px] text-pastel-muted">${track.genre}</p>
                 </div>
             `;
-            btn.addEventListener('click', () => loadTrack(index, true));
-            trackSelectorList.appendChild(btn);
+        btn.addEventListener("click", () => loadTrack(index, true));
+        trackSelectorList.appendChild(btn);
+      });
+
+      const playBtn = document.getElementById("play-btn");
+      const playIcon = document.getElementById("play-icon");
+      const prevBtn = document.getElementById("prev-btn");
+      const nextBtn = document.getElementById("next-btn");
+      const playerTitle = document.getElementById("player-title");
+      const playerArtist = document.getElementById("player-artist");
+      const playerGenre = document.getElementById("player-genre");
+      const playerCover = document.getElementById("player-cover");
+      const progressBar = document.getElementById("progress-bar");
+      const progressBarContainer = document.getElementById(
+        "progress-bar-container",
+      );
+      const currentTimeEl = document.getElementById("current-time");
+      const durationTimeEl = document.getElementById("duration-time");
+
+      function loadTrack(index, autoPlay = false) {
+        currentTrackIndex = index;
+        const track = tracks[index];
+        playerTitle.textContent = track.title;
+        playerArtist.textContent = track.artist;
+        playerGenre.textContent = track.genre;
+        playerCover.src = track.cover;
+
+        audioElement.src = track.src;
+        audioElement.load();
+
+        Array.from(trackSelectorList.children).forEach((child, i) => {
+          if (i === index) {
+            child.className =
+              "p-3 rounded-xl border text-left transition-all flex items-center gap-3 bg-pastel-peach/40 border-pastel-coral text-pastel-dark shadow-sm";
+          } else {
+            child.className =
+              "p-3 rounded-xl border text-left transition-all flex items-center gap-3 bg-pastel-bg border-pastel-peach/30 text-pastel-muted hover:border-pastel-coral";
+          }
         });
 
-        const playBtn = document.getElementById('play-btn');
-        const playIcon = document.getElementById('play-icon');
-        const prevBtn = document.getElementById('prev-btn');
-        const nextBtn = document.getElementById('next-btn');
-        const playerTitle = document.getElementById('player-title');
-        const playerArtist = document.getElementById('player-artist');
-        const playerGenre = document.getElementById('player-genre');
-        const playerCover = document.getElementById('player-cover');
-        const progressBar = document.getElementById('progress-bar');
-        const progressBarContainer = document.getElementById('progress-bar-container');
-        const currentTimeEl = document.getElementById('current-time');
-        const durationTimeEl = document.getElementById('duration-time');
-
-        function loadTrack(index, autoPlay = false) {
-            currentTrackIndex = index;
-            const track = tracks[index];
-            playerTitle.textContent = track.title;
-            playerArtist.textContent = track.artist;
-            playerGenre.textContent = track.genre;
-            playerCover.src = track.cover;
-
-            audioElement.src = track.src;
-            audioElement.load();
-
-            Array.from(trackSelectorList.children).forEach((child, i) => {
-                if (i === index) {
-                    child.className = 'p-3 rounded-xl border text-left transition-all flex items-center gap-3 bg-pastel-peach/40 border-pastel-coral text-pastel-dark shadow-sm';
-                } else {
-                    child.className = 'p-3 rounded-xl border text-left transition-all flex items-center gap-3 bg-pastel-bg border-pastel-peach/30 text-pastel-muted hover:border-pastel-coral';
-                }
-            });
-
-            if (autoPlay) {
-                playAudio();
-            } else {
-                pauseAudio();
-            }
+        if (autoPlay) {
+          playAudio();
+        } else {
+          pauseAudio();
         }
+      }
 
-        function playAudio() {
-            audioElement.play().then(() => {
-                isPlaying = true;
-                playIcon.setAttribute('data-lucide', 'pause');
-                lucide.createIcons();
-                animateWaveform(true);
-            }).catch(err => {
-                console.warn("Audio file could not be played. Check that your MP3 file exists at " + tracks[currentTrackIndex].src);
-            });
-        }
-
-        function pauseAudio() {
-            audioElement.pause();
-            isPlaying = false;
-            playIcon.setAttribute('data-lucide', 'play');
+      function playAudio() {
+        audioElement
+          .play()
+          .then(() => {
+            isPlaying = true;
+            playIcon.setAttribute("data-lucide", "pause");
             lucide.createIcons();
-            animateWaveform(false);
+            animateWaveform(true);
+          })
+          .catch((err) => {
+            console.warn(
+              "Audio file could not be played. Check that your MP3 file exists at " +
+                tracks[currentTrackIndex].src,
+            );
+          });
+      }
+
+      function pauseAudio() {
+        audioElement.pause();
+        isPlaying = false;
+        playIcon.setAttribute("data-lucide", "play");
+        lucide.createIcons();
+        animateWaveform(false);
+      }
+
+      function togglePlay() {
+        if (isPlaying) {
+          pauseAudio();
+        } else {
+          playAudio();
         }
+      }
 
-        function togglePlay() {
-            if (isPlaying) {
-                pauseAudio();
-            } else {
-                playAudio();
-            }
+      function formatTime(seconds) {
+        if (isNaN(seconds)) return "0:00";
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
+      }
+
+      audioElement.addEventListener("loadedmetadata", () => {
+        durationTimeEl.textContent = formatTime(audioElement.duration);
+      });
+
+      audioElement.addEventListener("timeupdate", () => {
+        if (audioElement.duration) {
+          const percent =
+            (audioElement.currentTime / audioElement.duration) * 100;
+          progressBar.style.width = `${percent}%`;
+          currentTimeEl.textContent = formatTime(audioElement.currentTime);
+          if (isPlaying) animateWaveform(true);
         }
+      });
 
-        function formatTime(seconds) {
-            if (isNaN(seconds)) return "0:00";
-            const mins = Math.floor(seconds / 60);
-            const secs = Math.floor(seconds % 60);
-            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+      audioElement.addEventListener("ended", () => {
+        let nextIndex = currentTrackIndex + 1;
+        if (nextIndex >= tracks.length) nextIndex = 0;
+        loadTrack(nextIndex, true);
+      });
+
+      progressBarContainer.addEventListener("click", (e) => {
+        const rect = progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = rect.width;
+        if (audioElement.duration) {
+          audioElement.currentTime = (clickX / width) * audioElement.duration;
         }
+      });
 
-        audioElement.addEventListener('loadedmetadata', () => {
-            durationTimeEl.textContent = formatTime(audioElement.duration);
-        });
+      playBtn.addEventListener("click", togglePlay);
+      prevBtn.addEventListener("click", () => {
+        let nextIndex = currentTrackIndex - 1;
+        if (nextIndex < 0) nextIndex = tracks.length - 1;
+        loadTrack(nextIndex, true);
+      });
+      nextBtn.addEventListener("click", () => {
+        let nextIndex = currentTrackIndex + 1;
+        if (nextIndex >= tracks.length) nextIndex = 0;
+        loadTrack(nextIndex, true);
+      });
 
-        audioElement.addEventListener('timeupdate', () => {
-            if (audioElement.duration) {
-                const percent = (audioElement.currentTime / audioElement.duration) * 100;
-                progressBar.style.width = `${percent}%`;
-                currentTimeEl.textContent = formatTime(audioElement.currentTime);
-                if (isPlaying) animateWaveform(true);
-            }
-        });
-
-        audioElement.addEventListener('ended', () => {
-            let nextIndex = currentTrackIndex + 1;
-            if (nextIndex >= tracks.length) nextIndex = 0;
-            loadTrack(nextIndex, true);
-        });
-
-        progressBarContainer.addEventListener('click', (e) => {
-            const rect = progressBarContainer.getBoundingClientRect();
-            const clickX = e.clientX - rect.left;
-            const width = rect.width;
-            if (audioElement.duration) {
-                audioElement.currentTime = (clickX / width) * audioElement.duration;
-            }
-        });
-
-        playBtn.addEventListener('click', togglePlay);
-        prevBtn.addEventListener('click', () => {
-            let nextIndex = currentTrackIndex - 1;
-            if (nextIndex < 0) nextIndex = tracks.length - 1;
-            loadTrack(nextIndex, true);
-        });
-        nextBtn.addEventListener('click', () => {
-            let nextIndex = currentTrackIndex + 1;
-            if (nextIndex >= tracks.length) nextIndex = 0;
-            loadTrack(nextIndex, true);
-        });
-
-        function animateWaveform(active) {
-            const bars = waveform.children;
-            for (let bar of bars) {
-                if (active) {
-                    const height = Math.floor(Math.random() * 80) + 20;
-                    bar.style.height = `${height}%`;
-                    bar.classList.add('bg-pastel-coral');
-                    bar.classList.remove('bg-pastel-peach');
-                } else {
-                    bar.classList.remove('bg-pastel-coral');
-                    bar.classList.add('bg-pastel-peach');
-                }
-            }
+      function animateWaveform(active) {
+        const bars = waveform.children;
+        for (let bar of bars) {
+          if (active) {
+            const height = Math.floor(Math.random() * 80) + 20;
+            bar.style.height = `${height}%`;
+            bar.classList.add("bg-pastel-coral");
+            bar.classList.remove("bg-pastel-peach");
+          } else {
+            bar.classList.remove("bg-pastel-coral");
+            bar.classList.add("bg-pastel-peach");
+          }
         }
+      }
 
-        // Repertoire List Data
-        const songs = [
-            { title: "Canon in D", artist: "J. Pachelbel", category: "Classical Elegance" },
-            { title: "Air on the G String", artist: "J. S. Bach", category: "Classical Elegance" },
-            { title: "Bridal March", artist: "R. Wagner", category: "Classical Elegance" },
-            { title: "Czardas", artist: "V. Monti", category: "Classical Elegance" },
-            { title: "Viva La Vida", artist: "Coldplay", category: "Modern Pop Covers" },
-            { title: "A Thousand Years", artist: "Christina Perri", category: "Modern Pop Covers" },
-            { title: "Wildest Dreams", artist: "Taylor Swift", category: "Modern Pop Covers" },
-            { title: "Perfect", artist: "Ed Sheeran", category: "Modern Pop Covers" },
-            { title: "Game of Thrones Theme", artist: "Ramin Djawadi", category: "Cinematic & Film" },
-            { title: "Gabriel's Oboe", artist: "Ennio Morricone", category: "Cinematic & Film" },
-            { title: "Smooth Operator", artist: "Sade", category: "Jazz & Lounge" },
-            { title: "The Girl from Ipanema", artist: "A. C. Jobim", category: "Jazz & Lounge" }
-        ];
+      // Repertoire List Data
+      const songs = [
+        {
+          title: "Canon in D",
+          artist: "J. Pachelbel",
+          category: "Classical Elegance",
+        },
+        {
+          title: "Air on the G String",
+          artist: "J. S. Bach",
+          category: "Classical Elegance",
+        },
+        {
+          title: "Bridal March",
+          artist: "R. Wagner",
+          category: "Classical Elegance",
+        },
+        {
+          title: "Czardas",
+          artist: "V. Monti",
+          category: "Classical Elegance",
+        },
+        {
+          title: "Viva La Vida",
+          artist: "Coldplay",
+          category: "Modern Pop Covers",
+        },
+        {
+          title: "A Thousand Years",
+          artist: "Christina Perri",
+          category: "Modern Pop Covers",
+        },
+        {
+          title: "Wildest Dreams",
+          artist: "Taylor Swift",
+          category: "Modern Pop Covers",
+        },
+        {
+          title: "Perfect",
+          artist: "Ed Sheeran",
+          category: "Modern Pop Covers",
+        },
+        {
+          title: "Game of Thrones Theme",
+          artist: "Ramin Djawadi",
+          category: "Cinematic & Film",
+        },
+        {
+          title: "Gabriel's Oboe",
+          artist: "Ennio Morricone",
+          category: "Cinematic & Film",
+        },
+        { title: "Smooth Operator", artist: "Sade", category: "Jazz & Lounge" },
+        {
+          title: "The Girl from Ipanema",
+          artist: "A. C. Jobim",
+          category: "Jazz & Lounge",
+        },
+      ];
 
-        const repertoireGrid = document.getElementById('repertoire-grid');
-        const searchInput = document.getElementById('repertoire-search');
-        const categoryBtns = document.querySelectorAll('.filter-btn');
+      const repertoireGrid = document.getElementById("repertoire-grid");
+      const searchInput = document.getElementById("repertoire-search");
+      const categoryBtns = document.querySelectorAll(".filter-btn");
 
-        function renderSongs(filterCategory = 'all', searchQuery = '') {
-            repertoireGrid.innerHTML = '';
-            const filtered = songs.filter(song => {
-                const matchesCategory = filterCategory === 'all' || song.category === filterCategory;
-                const matchesSearch = song.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                                      song.artist.toLowerCase().includes(searchQuery.toLowerCase());
-                return matchesCategory && matchesSearch;
-            });
+      function renderSongs(filterCategory = "all", searchQuery = "") {
+        repertoireGrid.innerHTML = "";
+        const filtered = songs.filter((song) => {
+          const matchesCategory =
+            filterCategory === "all" || song.category === filterCategory;
+          const matchesSearch =
+            song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            song.artist.toLowerCase().includes(searchQuery.toLowerCase());
+          return matchesCategory && matchesSearch;
+        });
 
-            if (filtered.length === 0) {
-                repertoireGrid.innerHTML = `
+        if (filtered.length === 0) {
+          repertoireGrid.innerHTML = `
                     <div class="col-span-full text-center py-8 text-pastel-muted">
                         No matching song found. Virginia regularly transcribes custom song requests upon request!
                     </div>
                 `;
-                return;
-            }
+          return;
+        }
 
-            filtered.forEach(song => {
-                const card = document.createElement('div');
-                card.className = 'bg-pastel-card p-4 rounded-2xl flex items-center justify-between border border-pastel-peach/40 shadow-sm hover:border-pastel-coral transition-all';
-                card.innerHTML = `
+        filtered.forEach((song) => {
+          const card = document.createElement("div");
+          card.className =
+            "bg-pastel-card p-4 rounded-2xl flex items-center justify-between border border-pastel-peach/40 shadow-sm hover:border-pastel-coral transition-all";
+          card.innerHTML = `
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 rounded-full bg-pastel-peach/40 flex items-center justify-center text-pastel-rose text-xs">
                             <i data-lucide="music-2" class="w-4 h-4"></i>
@@ -924,106 +1523,148 @@
                     </div>
                     <span class="text-[10px] uppercase font-bold text-pastel-rose bg-pastel-lavender px-2.5 py-1 rounded-full">${song.category}</span>
                 `;
-                repertoireGrid.appendChild(card);
-            });
-            lucide.createIcons();
-        }
-
-        categoryBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                categoryBtns.forEach(b => {
-                    b.classList.remove('bg-pastel-coral', 'text-white', 'shadow-md');
-                    b.classList.add('bg-pastel-card', 'text-pastel-dark');
-                });
-                btn.classList.add('bg-pastel-coral', 'text-white', 'shadow-md');
-                btn.classList.remove('bg-pastel-card', 'text-pastel-dark');
-
-                const cat = btn.getAttribute('data-category');
-                renderSongs(cat, searchInput.value);
-            });
+          repertoireGrid.appendChild(card);
         });
+        lucide.createIcons();
+      }
 
-        searchInput.addEventListener('input', (e) => {
-            const activeBtn = document.querySelector('.filter-btn.bg-pastel-coral');
-            const cat = activeBtn ? activeBtn.getAttribute('data-category') : 'all';
-            renderSongs(cat, e.target.value);
+      categoryBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          categoryBtns.forEach((b) => {
+            b.classList.remove("bg-pastel-coral", "text-white", "shadow-md");
+            b.classList.add("bg-pastel-card", "text-pastel-dark");
+          });
+          btn.classList.add("bg-pastel-coral", "text-white", "shadow-md");
+          btn.classList.remove("bg-pastel-card", "text-pastel-dark");
+
+          const cat = btn.getAttribute("data-category");
+          renderSongs(cat, searchInput.value);
         });
+      });
 
-        // Instant Quote Calculator Logic
-        const calcTypeBtns = document.querySelectorAll('.calc-type-btn');
-        const calcLocBtns = document.querySelectorAll('.calc-loc-btn');
-        const durationSlider = document.getElementById('duration-slider');
-        const durationVal = document.getElementById('duration-val');
-        const addonCheckboxes = document.querySelectorAll('.addon-checkbox');
-        const totalPriceEl = document.getElementById('total-price');
+      searchInput.addEventListener("input", (e) => {
+        const activeBtn = document.querySelector(".filter-btn.bg-pastel-coral");
+        const cat = activeBtn ? activeBtn.getAttribute("data-category") : "all";
+        renderSongs(cat, e.target.value);
+      });
 
-        let basePrice = 380;
-        let travelFee = 0;
+      // Instant Quote Calculator Logic
+      const calcTypeBtns = document.querySelectorAll(".calc-type-btn");
+      const calcLocBtns = document.querySelectorAll(".calc-loc-btn");
+      const durationSlider = document.getElementById("duration-slider");
+      const durationVal = document.getElementById("duration-val");
+      const addonCheckboxes = document.querySelectorAll(".addon-checkbox");
+      const totalPriceEl = document.getElementById("total-price");
 
-        calcTypeBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                calcTypeBtns.forEach(b => {
-                    b.classList.remove('border-2', 'border-pastel-coral', 'bg-pastel-peach/30', 'font-bold');
-                    b.classList.add('border', 'border-pastel-peach/60', 'bg-pastel-bg', 'font-semibold');
-                });
-                btn.classList.add('border-2', 'border-pastel-coral', 'bg-pastel-peach/30', 'font-bold');
-                btn.classList.remove('border', 'border-pastel-peach/60', 'bg-pastel-bg', 'font-semibold');
-                basePrice = parseInt(btn.getAttribute('data-base'));
-                updateTotal();
-            });
+      let basePrice = 380;
+      let travelFee = 0;
+
+      calcTypeBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          calcTypeBtns.forEach((b) => {
+            b.classList.remove(
+              "border-2",
+              "border-pastel-coral",
+              "bg-pastel-peach/30",
+              "font-bold",
+            );
+            b.classList.add(
+              "border",
+              "border-pastel-peach/60",
+              "bg-pastel-bg",
+              "font-semibold",
+            );
+          });
+          btn.classList.add(
+            "border-2",
+            "border-pastel-coral",
+            "bg-pastel-peach/30",
+            "font-bold",
+          );
+          btn.classList.remove(
+            "border",
+            "border-pastel-peach/60",
+            "bg-pastel-bg",
+            "font-semibold",
+          );
+          basePrice = parseInt(btn.getAttribute("data-base"));
+          updateTotal();
         });
+      });
 
-        calcLocBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                calcLocBtns.forEach(b => {
-                    b.classList.remove('border-2', 'border-pastel-coral', 'bg-pastel-peach/30', 'font-bold');
-                    b.classList.add('border', 'border-pastel-peach/60', 'bg-pastel-bg', 'font-medium');
-                });
-                btn.classList.add('border-2', 'border-pastel-coral', 'bg-pastel-peach/30', 'font-bold');
-                btn.classList.remove('border', 'border-pastel-peach/60', 'bg-pastel-bg', 'font-medium');
-                travelFee = parseInt(btn.getAttribute('data-travel'));
-                updateTotal();
-            });
+      calcLocBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          calcLocBtns.forEach((b) => {
+            b.classList.remove(
+              "border-2",
+              "border-pastel-coral",
+              "bg-pastel-peach/30",
+              "font-bold",
+            );
+            b.classList.add(
+              "border",
+              "border-pastel-peach/60",
+              "bg-pastel-bg",
+              "font-medium",
+            );
+          });
+          btn.classList.add(
+            "border-2",
+            "border-pastel-coral",
+            "bg-pastel-peach/30",
+            "font-bold",
+          );
+          btn.classList.remove(
+            "border",
+            "border-pastel-peach/60",
+            "bg-pastel-bg",
+            "font-medium",
+          );
+          travelFee = parseInt(btn.getAttribute("data-travel"));
+          updateTotal();
         });
+      });
 
-        durationSlider.addEventListener('input', (e) => {
-            const hrs = e.target.value;
-            durationVal.textContent = `${hrs} ${hrs == 1 ? 'Hour' : 'Hours'}`;
-            updateTotal();
-        });
-
-        addonCheckboxes.forEach(cb => {
-            cb.addEventListener('change', updateTotal);
-        });
-
-        function updateTotal() {
-            const hours = parseInt(durationSlider.value);
-            let total = basePrice + (hours - 1) * 120 + travelFee;
-
-            addonCheckboxes.forEach(cb => {
-                if (cb.checked) {
-                    total += parseInt(cb.getAttribute('data-price'));
-                }
-            });
-
-            totalPriceEl.textContent = `€${total}`;
-        }
-
-        // Contact Form Submission Mock
-        const bookingForm = document.getElementById('booking-form');
-        const formMessage = document.getElementById('form-message');
-
-        bookingForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            formMessage.className = "p-4 rounded-2xl text-sm font-semibold bg-pastel-mint text-pastel-dark border border-pastel-coral block mb-4 shadow-sm";
-            formMessage.textContent = "Thank you! Your event inquiry has been sent. Virginia will check her availability for your date and get back to you within 24 hours.";
-            bookingForm.reset();
-        });
-
-        // Initialize Render
-        renderSongs();
-        loadTrack(0, false);
+      durationSlider.addEventListener("input", (e) => {
+        const hrs = e.target.value;
+        durationVal.textContent = `${hrs} ${hrs == 1 ? "Hour" : "Hours"}`;
         updateTotal();
+      });
+
+      addonCheckboxes.forEach((cb) => {
+        cb.addEventListener("change", updateTotal);
+      });
+
+      function updateTotal() {
+        const hours = parseInt(durationSlider.value);
+        let total = basePrice + (hours - 1) * 120 + travelFee;
+
+        addonCheckboxes.forEach((cb) => {
+          if (cb.checked) {
+            total += parseInt(cb.getAttribute("data-price"));
+          }
+        });
+
+        totalPriceEl.textContent = `€${total}`;
+      }
+
+      // Contact Form Submission Mock
+      const bookingForm = document.getElementById("booking-form");
+      const formMessage = document.getElementById("form-message");
+
+      bookingForm.addEventListener("submit", (e) => {
+        e.preventDefault(); // <--- THIS PREVENTS REAL SUBMISSION
+        formMessage.className =
+          "p-4 rounded-2xl text-sm font-semibold bg-pastel-mint text-pastel-dark border border-pastel-coral block mb-4 shadow-sm";
+        formMessage.textContent =
+          "Thank you! Your event inquiry has been sent. Virginia will check her availability for your date and get back to you within 24 hours.";
+        bookingForm.reset();
+      });
+
+      // Initialize Render
+      renderSongs();
+      loadTrack(0, false);
+      updateTotal();
     </script>
-</body>
+  </body>
 </html>
