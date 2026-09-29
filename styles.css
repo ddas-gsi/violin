@@ -1,0 +1,31 @@
+body {
+  background-color: #faf6f0;
+  color: #2d2026;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf6f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffd8c8;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fca180;
+}
+
+.gradient-btn {
+  background: linear-gradient(135deg, #fca180 0%, #e2d4f8 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #a24857 0%, #2d2026 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
